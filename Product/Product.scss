@@ -1,7 +1,6 @@
 main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   padding: 10rem;
   background: #00b4db; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -14,9 +13,8 @@ main {
     #0083b0,
     #00b4db
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-  & .hero-img {
-  }
-  & .desc-hero h1 {
+  & .container-pics {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
