@@ -6,7 +6,7 @@
 }
 * body {
   font-family: "Poppins", sans-serif;
-  background-color: black;
+  background: linear-gradient(to right, #004e92, #000428);
   font-size: 62.5%;
   color: white;
 }
@@ -20,7 +20,11 @@ header {
   align-items: center;
   width: 100%;
   background: #000428; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(
+    to right,
+    #004e92,
+    #000428
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   /*   & a:hover {
       background-color: white;
       padding: 0.1rem;
@@ -79,4 +83,4 @@ header .links-a:hover {
   color: orange;
 }
 
-/* Footer Section *//*# sourceMappingURL=global.css.map */
+/* Footer Section */ /*# sourceMappingURL=global.css.map */
