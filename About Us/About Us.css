@@ -139,4 +139,10 @@
 .contact-button:hover {
   opacity: 0.8;
   cursor: pointer;
+}
+
+a {
+  color: #868f9b;
+  text-decoration: none;
+  font-size: 0.9rem;
 }/*# sourceMappingURL=About Us.css.map */
